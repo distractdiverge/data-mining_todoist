@@ -10,3 +10,7 @@ def get_api_token():
 
 def get_raw_data_path():
     return os.path.abspath('./raw-data')
+
+
+def debug():
+    return os.getenv('DEBUG') == "TRUE"

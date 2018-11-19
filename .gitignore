@@ -1,3 +1,5 @@
+raw-data/*.p
+
 .env
 .env.*
 !.env.sample
