@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 python-dotenv = "*"
 todoist-python = "*"
+nltk = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
