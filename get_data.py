@@ -17,7 +17,7 @@ def get_data():
     tasks_with_labels = [t for t in tasks if len(t['labels']) != 0]
     tasks_without_labels = [t for t in tasks if len(t['labels']) == 0]
 
-    test_data_size = math.floor(len(tasks_with_labels) * 0.2);
+    test_data_size = math.floor(len(tasks_with_labels) * 0.8);
     test_data = tasks_with_labels[test_data_size:]
     training_data = tasks_with_labels[:test_data_size]
 
